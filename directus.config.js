@@ -2,7 +2,9 @@
 module.exports = {
   PORT: 80,
   
-  DB_CONNECTION_STRING: process.env.DB_CONNECTION_STRING || process.env.DATABASE_URL,
+  DB_CLIENT: process.env.DB_CLIENT,
+  DB_CONNECTION_STRING: `${process.env.DATABASE_URL}?ssl-mode=require`,
+
   RATE_LIMITER_REDIS: process.env.RATE_LIMITER_REDIS || process.env.REDIS_URL,
   CACHE_REDIS: process.env.CACHE_REDIS || process.env.REDIS_URL,
   EMAIL_FROM: process.env.EMAIL_FROM || process.env.MAILGUN_SMTP_LOGIN,
