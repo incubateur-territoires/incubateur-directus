@@ -1,16 +1,12 @@
 {
   "name": "incubateur-directus",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Directus",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "directus start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "directus": "^9.0.0-rc.45",
+    "directus": "^9.0.0-rc.51",
     "pg": "^8.5.1"
   }
 }
