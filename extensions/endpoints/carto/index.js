@@ -40,8 +40,6 @@ module.exports = function registerEndpoint(router, { database, exceptions }) {
 
     const query = buildQuery('epcis', id)
 
-    console.log(query)
-
     database.raw(query).then(({ rows }) => {
       res.send(rows[0].row_to_json)
     }).catch((error) => {
