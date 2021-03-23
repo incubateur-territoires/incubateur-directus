@@ -1,1 +1,1 @@
-web: npx directus
+web: npx directus start
