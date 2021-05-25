@@ -6,7 +6,7 @@
     "start": "directus start"
   },
   "dependencies": {
-    "directus": " directus/directus#266b1bb4b5ae6ff07bf70fda7dd34635092df4d3", 
+    "directus": "^9.0.0-rc.69", 
     "node-fetch": "^2.6.1",
     "pg": "^8.5.1"
   }
