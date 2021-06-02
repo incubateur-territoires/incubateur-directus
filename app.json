@@ -1,0 +1,8 @@
+{
+  "cron": [
+    {
+      "command": "node ./scripts/trigger-github-build.js",
+      "schedule": "@daily"
+    }
+  ]
+}
