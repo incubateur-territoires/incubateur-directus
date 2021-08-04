@@ -6,8 +6,8 @@
     "start": "directus start"
   },
   "dependencies": {
-    "directus": "^9.0.0-rc.85",
+    "directus": "^9.0.0-rc.88",
     "node-fetch": "^2.6.1",
-    "pg": "^8.5.1"
+    "pg": "^8.7.1"
   }
 }
