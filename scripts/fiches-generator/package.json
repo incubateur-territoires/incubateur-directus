@@ -1,0 +1,11 @@
+{
+  "name": "incubateur-directus-scripts",
+  "version": "1.0.0",
+  "description": "Scripts",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "he": "^1.2.0",
+    "mustache": "^4.2.0",
+    "node-fetch": "^2.6.1"
+  }
+}
