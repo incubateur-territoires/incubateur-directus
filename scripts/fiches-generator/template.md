@@ -1,5 +1,5 @@
 ---
-title: PNI Investigation {{id}}
+title: Programme national d'investigation ({{id}})
 mission: {{{mission}}}
 owner: {{owner}}
 incubator: anct
@@ -10,6 +10,7 @@ link: {{service_url}}
 repository: {{repo_url}}
 stats: false
 stats_url: 
-contact:
+contact: contactincubateur@anct.gouv.fr
 ---
 {{{fiche_de_probleme}}}
+Collectivité sponsor : {{collectivite}}
