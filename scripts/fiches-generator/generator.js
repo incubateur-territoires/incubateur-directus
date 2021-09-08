@@ -26,10 +26,8 @@ const generator = async () => {
     investigation['collectivite'] = investigation.communes.map((c) => { return c.communes_id.nom }).join(', ')
     investigation['owner'] = "Agence nationale de la cohésion des territoires"
 
-    console.log(turndownService.turndown(investigation['fiche_de_probleme']));
-
     investigation['fiche_de_probleme'] = turndownService.turndown(investigation['fiche_de_probleme']);
-    investigation['mission'] = he.decode(investigation['mission']);
+    investigation['mission'] = he.decode(investigation['mission']).replace(/['"]+/g, '');
     
     return investigation;
   })
